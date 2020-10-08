@@ -1,0 +1,26 @@
+[17:31:31] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_265]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_265]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284) ~[?:1.8.0_265]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345) ~[?:1.8.0_265]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_265]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_265]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_265]
+	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_265]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_265]
+	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_265]
+	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_265]
+	at zg$1.run(SourceFile:89) [server.jar:?]
+[17:31:31] [Server thread/INFO]: Stopping server
+[17:31:31] [Server thread/INFO]: Saving players
+[17:31:31] [Server thread/INFO]: Saving worlds
+[17:31:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:31:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:31:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:31:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:31:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:31:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:31:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:31:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:31:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
